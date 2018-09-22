@@ -1,0 +1,22 @@
+{
+    "name": "gquemener/matrix-config-builder",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gildas Quéméner",
+            "email": "gildas.quemener@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GQuemener\\MatrixConfigBuilder\\": "src/"
+        }
+    },
+    "require": {
+        "markrogoyski/math-php": "^0.44.0",
+        "symfony/yaml": "^4.1",
+        "symfony/serializer": "^4.1"
+    },
+    "require-dev": {
+    }
+}
